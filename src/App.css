@@ -58,14 +58,14 @@
 
 .App {
   text-align: center;
-  background-color:green;
+  /* background-color:green; */
 }
  
 .labelName{
   display: block;
   font-size: larger;
   color: white;
-  padding: 10px;
+  padding: 3px;
   margin-left: 438px;
   text-transform: uppercase;
 }
@@ -74,7 +74,7 @@
   display: block;
   font-size: larger;
   color: white;
-  padding: 10px;
+  padding: 3px;
   margin-left: 438px;
   text-transform: uppercase;
 }
@@ -83,15 +83,16 @@
   display: block;
   font-size: larger;
   color: white;
-  padding: 10px;
+  padding: 3px;
   margin-left: 430px;
   text-transform: uppercase;
 }
  
 .inputText{
-  font-size: larger;
+  /* font-size: larger; */
+  width: 30%;
   padding-left: 5px;
-  margin-left: 372px;
+  margin-left: 345px;
   text-align: center;
   position: relative;
   color:rgb(124, 111, 25);
@@ -134,8 +135,10 @@
   border-radius: 5px;
   font-size: larger;
   display: block;
-  padding: 5px;
-  margin: 10px auto;
+  padding-top: 5px;
+  margin: 15px  auto  0px ;
+  width: 25%;
+  
 }
  
 .messages{
@@ -166,6 +169,7 @@
   text-transform: uppercase;
   text-shadow: 3px 3px 4px #605f5f;
   
+  
 }
 
 #root > div > form {
@@ -181,3 +185,72 @@
 
 
 }
+#root > form > input[type=email]:nth-child(2) {
+  text-align: center;
+  padding: 3px;
+  width: 30%;
+  margin-left: 338px;
+}
+#root > form > input[type=password]:nth-child(4){
+  text-align: center;
+  padding: 3px;
+  margin-bottom: 6px;
+  width: 30%;
+  margin-left:338px ;
+}
+#root > p {
+  text-align: center;
+  width: 30vw;
+  font-size: larger;
+  background-color: white;
+  padding: 2vw 1vw;
+  border-radius: 10px 10px 0 0;
+  font-size: 2rem;
+  font-family: "PT Sans", sans-serif;
+  color:rgb(124, 111, 25);
+  text-transform: uppercase;
+  text-shadow: 3px 3px 4px #605f5f;
+  margin-left: 338px;
+}
+
+#root > form > p:nth-child(1){
+  
+  font-size: larger;
+  color: white;
+  text-align: center;
+  position: relative;
+  text-shadow: 2px 2px 3px #fee36c;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+#root > form > p:nth-child(3){
+  font-size: larger;
+  color: white;
+  text-align: center;
+  position: relative;
+  text-shadow: 2px 2px 3px #fee36c;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+.appForm {
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  padding: 2vw 1vw;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("/public/images/layout2Pic.jpg" );
+  background-attachment: fixed;
+  background-size: cover; 
+}
+
+

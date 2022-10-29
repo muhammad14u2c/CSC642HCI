@@ -2,14 +2,7 @@ import React from "react";
 import "../../App.css";
 import { useState, useEffect } from "react";
 
-// export default function SignUp() {
-//   return (
-//     <>
-//   <h1 className="sign-up">Sign Up With Foodie Today</h1>
-      
-//   </>
-//   );
-// }
+// source: https://www.geeksforgeeks.org/how-to-develop-user-registration-form-in-reactjs/
 
 export default function SignUp() {
  
