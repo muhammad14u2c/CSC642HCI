@@ -90,15 +90,19 @@
  
 .inputText{
   font-size: larger;
-  padding-left: 5px;
-  margin-left: 372px;
+  padding: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 625px;
   text-align: center;
   position: relative;
   color:rgb(124, 111, 25);
   
 }
 
-
+#root > div > div:nth-child(1) {
+  background-color: black;
+}
 
 #root > div > form > label.labelName{
   font-size: larger;
@@ -106,7 +110,7 @@
   margin-right: 440px;
   text-align: center;
   position: relative;
-  text-shadow: 2px 2px  3px #fee36c;
+  /* text-shadow: 2px 2px  3px #fee36c; */
   
 }
 
@@ -116,7 +120,7 @@
   margin-right: 435px;
   text-align: center;
   position: relative;
-  text-shadow: 2px 2px 3px #fee36c;
+  /* text-shadow: 2px 2px 3px #fee36c; */
   
 }
 #root > div > form > label.labelEmail{
@@ -125,7 +129,7 @@
   margin-right: 437px;
   text-align: center;
   position: relative;
-  text-shadow: 2px 2px 3px #fee36c;
+  /* text-shadow: 2px 2px 3px #fee36c; */
   
 }
 .btnSubmit{
@@ -162,7 +166,7 @@
 }
 
 #root > div > div:nth-child(1) > h1{
-  color:rgb(124, 111, 25);
+  color:rgb(255, 255, 255);
   text-transform: uppercase;
   text-shadow: 3px 3px 4px #605f5f;
   
