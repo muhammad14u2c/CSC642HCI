@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+
 
 // export default function SignUp() {
 //   return (
@@ -13,6 +14,7 @@ import { useState, useEffect } from "react";
 
 export default function SignUp() {
  
+  
   // States for registration
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -67,6 +69,7 @@ export default function SignUp() {
   // Showing error message if error is true
   const errorMessage = () => {
     return (
+      
       <div
         className="error"
         style={{
