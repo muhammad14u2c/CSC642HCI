@@ -23,6 +23,19 @@ export default function Recipes() {
   function goToSweet (){
     history.push("/SweetRecipeListed");
   }
+  function goToPizza (){
+    history.push("/PizzaRecipeListed");
+  }
+  function goToCracker (){
+    history.push("/CrackerRecipeListed");
+  }
+  function goToPancake (){
+    history.push("/PancakeRecipeListed");
+  }
+  function goToBrownie (){
+    history.push("/BrownieRecipeListed");
+  }
+
 
   return (
     <>
@@ -36,15 +49,29 @@ export default function Recipes() {
               <button type="button" onClick={goToChicken}>
               <CardItem
                 src="images/chickenPic.jpeg"
-                text="Taste delicious restaurant style cuisine from your home or dorm room"
-                label="Savory and Spicy Dishes"
+                text="Restaurant Chicken From Home"
+                label="Savory and Spicy Dish"
                 path="/recipes"
               /></button>
               <button type="button" onClick={goToBurger}>
               <CardItem
                 src="images/burgerPic.jpeg"
-                text="Enjoy filling and tasty homemade burgers"
-                label="Savory Dishes"
+                text="Homemade Island Burger"
+                label="Savory Dish"
+                path="/recipes"
+              /></button>
+              <button type="button" onClick={goToPizza}> 
+              <CardItem
+                src="images/pizzaPic.jpeg"
+                text="Oven Baked Pizza"
+                label="Savory Dish"
+                path="/recipes"
+              /></button>
+              <button type="button" onClick={goToCracker}>
+              <CardItem
+                src="images/crackers.jpg"
+                text="Quick Appetizer"
+                label="Savory Dish"
                 path="/recipes"
               /></button>
             </ul>
@@ -52,25 +79,45 @@ export default function Recipes() {
             <button type="button" onClick={goToSour}>
               <CardItem
                 src="images/eggPic.jpeg"
-                text="Enjoy simple foods that satisfy your cravings"
-                label="Sour Dishes"
+                text="Quick Egg Rush"
+                label="Sour Dish"
                 path="/recipes"
               /></button>
               <button type="button" onClick={goToSpicy}>
               <CardItem
                 src="images/spicyPic.jpg"
-                text="Cooking is as good as the food looks"
-                label="Spicy Dishes"
+                text="Tongue Watering Spice Noodles"
+                label="Spicy Dish"
                 path="/recipes"
               /></button>
               <button type="button" onClick={goToSweet}>
+               
               <CardItem
                 src="images/cakePic.jpeg"
-                text="Sweets just for you"
-                label="Sweet Dishes"
+                text="Chocoloate Mountain Cake"
+                label="Sweet Dish"
                 path="/recipes"
               />
               </button>
+              <button type="button" onClick={goToBrownie}>
+                
+              <CardItem
+                src="images/browniePic.jpg"
+                text="Satisfying Brownies"
+                label="Sweet Dish"
+                path="/recipes"
+              />
+              </button>
+              <button type="button" onClick={goToPancake}>
+                
+              <CardItem
+                src="images/pancakePic.jpeg"
+                text="Pancake Heaven"
+                label="Sweet Dish"
+                path="/recipes"
+              />
+              </button>
+              
             </ul>
           </div>
         </div>

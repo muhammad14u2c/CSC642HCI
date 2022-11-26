@@ -18,6 +18,10 @@ import BurgerRecipeListed from "./components/pages/BurgerRecipeListed";
 import SourRecipeListed from "./components/pages/SourRecipeListed";
 import SpicyRecipeListed from "./components/pages/SpicyRecipeListed";
 import SweetRecipeListed from "./components/pages/SweetRecipeListed";
+import BrownieRecipeListed from "./components/pages/BrownieRecipeListed";
+import CrackerRecipeListed from "./components/pages/CrackerRecipeListed";
+import PancakeRecipeListed from "./components/pages/PancakeRecipeListed";
+import PizzaRecipeListed from "./components/pages/PizzaRecipeListed";
 
 function App() {
   return (
@@ -35,6 +39,11 @@ function App() {
           <Route path="/SourRecipeListed" component={SourRecipeListed} />
           <Route path="/SpicyRecipeListed" component={SpicyRecipeListed} />
           <Route path="/SweetRecipeListed" component={SweetRecipeListed} />
+          
+          <Route path="/PizzaRecipeListed" component={PizzaRecipeListed} />
+          <Route path="/BrownieRecipeListed" component={BrownieRecipeListed} />
+          <Route path="/CrackerRecipeListed" component={CrackerRecipeListed} />
+          <Route path="/PancakeRecipeListed" component={PancakeRecipeListed} />
         </Switch>
       </Router>
     </>
