@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Team 5 HCI CSC642
 
+if node modules giving error, delete node modules and packagelock.json and run npm i. This will update the code with the proper node modules. run npm update if neccessary. Any scripts that give error must be installed using npm. In main directory you can run npm start to see the react app. (Large node modules folder will lead to slow download speed so you can feel safe deleting and re installing in IDE if comfortable. 
+
 ## Available Scripts
 
 In the project directory, you can run:
