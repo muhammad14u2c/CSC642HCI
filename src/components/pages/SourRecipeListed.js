@@ -6,7 +6,7 @@ import SourRecipeItem from "../elements/SourRecipeItem";
 export default function SourRecipeListed() {
   return (
     <>
-      <h2 className="recipes">Sour Recipe</h2>
+      <h2 className="recipes">Egg (Sour) Recipe</h2>
       <div className="container h-100">
         <div class="row justify-content-center">
         <SourRecipeItem/>
